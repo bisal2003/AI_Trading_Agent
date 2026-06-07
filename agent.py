@@ -1372,4 +1372,3 @@ def reset_daily_state():
 
 if __name__ == "__main__":
     asyncio.run(start_autonomous_agent())
-
