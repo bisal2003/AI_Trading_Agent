@@ -43,8 +43,8 @@ An autonomous AI trading agent that analyzes technical indicators in real-time, 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/marketcalls/Agentic-Trader.git
-cd Agentic-Trader
+git clone https://github.com/bisal2003/AI_Trading_Agent.git
+cd AI_Trading_Agent
 
 # 2. Install uv package manager
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -239,8 +239,8 @@ brew install ta-lib
 
 ```bash
 # Clone repository
-git clone <repo-url>
-cd autonomous-agents
+git clone https://github.com/bisal2003/AI_Trading_Agent.git
+cd AI_Trading_Agent
 
 # Install dependencies
 uv sync
@@ -473,7 +473,7 @@ For more troubleshooting help, see [TROUBLESHOOTING.md](./TROUBLESHOOTING.md).
 ## Project Structure
 
 ```
-autonomous-agents/
+AI_Trading_Agent/
 ├── agent.py                 # Main trading agent (run this)
 ├── .env                     # Your API keys (gitignored)
 ├── .env.example            # Example configuration template
@@ -497,8 +497,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```bash
 # Clone for development
-git clone <repo-url>
-cd autonomous-agents
+git clone https://github.com/bisal2003/AI_Trading_Agent.git
+cd AI_Trading_Agent
 
 # Create virtual environment
 uv venv
@@ -630,3 +630,4 @@ grep "TOKEN USAGE" trading_agent.log
 # View recent trades
 sqlite3 trading_memory.db "SELECT * FROM trades ORDER BY timestamp DESC LIMIT 10"
 ```
+

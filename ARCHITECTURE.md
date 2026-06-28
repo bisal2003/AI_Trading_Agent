@@ -1088,3 +1088,4 @@ See [TROUBLESHOOTING.md](./TROUBLESHOOTING.md) for detailed solutions.
 **Trading Style**: Technical Analysis + Instant Market Orders
 **Performance**: 70% faster, 79% less tokens, 65% cheaper
 **New Features**: Startup initialization, market hours protection, smart square-off, P&L tracking
+
